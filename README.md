@@ -1,6 +1,7 @@
 # LeetCode Solutions in Kotlin
 
 ![Build Status](https://github.com/prashanth1230/LeetcodeKotlin/actions/workflows/build.yml/badge.svg)
+[![codecov](https://codecov.io/gh/prashanth1230/LeetcodeKotlin/branch/main/graph/badge.svg)](https://codecov.io/gh/prashanth1230/LeetcodeKotlin)
 
 This repository contains solutions to various LeetCode problems implemented in Kotlin. Each solution is organized by problem category and includes test cases.
 
@@ -59,3 +60,16 @@ Feel free to contribute by:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Code Coverage
+
+This project uses JaCoCo for code coverage reporting. Coverage reports are automatically generated and uploaded to Codecov after each successful build.
+
+You can view:
+- Detailed coverage reports on [Codecov](https://codecov.io/gh/prashanth1230/LeetcodeKotlin)
+- Local coverage reports in `build/reports/jacoco/test/html/index.html` after running tests
+
+To generate coverage reports locally:
+```bash
+./gradlew test jacocoTestReport
+```
