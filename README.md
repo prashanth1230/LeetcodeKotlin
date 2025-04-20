@@ -1,5 +1,7 @@
 # LeetCode Solutions in Kotlin
 
+![Build Status](https://github.com/prashanth1230/LeetcodeKotlin/actions/workflows/build.yml/badge.svg)
+
 This repository contains solutions to various LeetCode problems implemented in Kotlin. Each solution is organized by problem category and includes test cases.
 
 ## Project Structure
