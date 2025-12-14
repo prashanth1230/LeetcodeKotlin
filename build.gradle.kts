@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    // Kotlin standard library is automatically included with kotlin("jvm") plugin
+    implementation(kotlin("stdlib"))
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
